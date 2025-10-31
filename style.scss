@@ -4,6 +4,181 @@
     box-sizing: border-box;
 }
 
+header ul, a  {
+    margin: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    color: black; 
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 80px;
+    margin: 15px;
+    
+}
+
+.headerLogo {
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 55%;
+    
+}
+
+.btnHeader {
+    background-color: #00c853;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.sectionPrincipal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    width: 80%;
+    margin:  auto;
+}
+
+h1 {
+width: 90%;
+font-family: 'Poppins', sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 60px;
+line-height: 130%;
+letter-spacing: 0%;
+
+}
+
+.pPrincipal{
+  width: 80%;
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-style: Normal;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+margin-top: 20px;
+
+}
+
+.btndoar {
+    background-color: #16A34A;
+    color: white;
+    border:  none;
+    padding: 18px 42px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.btnadquirir {
+    background-color: #ffffff;
+    color: #2563EB;
+    border: 2px solid #2563EB;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.imagemPrincipal  {
+width: 50%
+
+
+
+}
+
+.beneficiados { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 184px;
+    width: 80%;
+    margin:  auto;  
+    background: #F3F5F8;
+    width: 100%;
+
+    h2{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 130%;
+        color: #16A34A;
+    }
+
+      p{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 130%;
+        color: #374151; 
+      }
+
+ }
+
+
+ .comoFunciona {
+    
+
+    h2{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 130%;
+        color: #111827;
+        margin-top: 30px;
+        margin: 50px;
+    }
+
+      h3{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 130%;
+        color: #1F2937;
+        margin-top: 10px;
+        margin: 50px;
+      }
+
+ }
+
+
+body {
+  
+
+
+
+}
+
+
+
+
+
+
+
+
+
 
 .footer {
    background: #1F2937;
